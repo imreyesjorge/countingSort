@@ -28,3 +28,4 @@ def sort(lst):
       sortedList[aux[x] - 1] = x
       aux[x] -= 1
 
+   return sortedList
