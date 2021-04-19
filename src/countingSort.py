@@ -1,13 +1,13 @@
 # Definimos la funcion del algoritmo "Counting Sort"
-def sort(lst): # 7
+def sort(lst):
    
    # Conseguimos el valor mínimo y máximo de la lista que nos dieron
-   minVal = min(lst) # 2
-   maxVal = max(lst) # 9
+   minVal = min(lst) 
+   maxVal = max(lst) 
 
    # Creamos una lista auxiliar que mida de "min" - "max" y lo inicializamos en 0
-   aux = [] # 9 lugares
-   for x in range (0, maxVal + 1): # 0, 10
+   aux = []
+   for x in range (0, maxVal + 1):
       aux.append(0)
    
    # Contamos cuantas veces aparece cada número
